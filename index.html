@@ -1,1 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+
+            <div class="row no-gutters">
+                <div class="col-4">
+                    <canvas id="game-canvas" width="300" height="600"></canvas>
+                </div>
+                <div class="col-6">
+                    <div class="card-body">
+                        <ul>
+                            <li>Instructions : press E/e/Up arrow key Rotate the piece</li>
+                            <li>Instructions : press S/s/Left arrow key to move left</li>
+                            <li>Instructions : press D/d/Down arrow key to move Down </li>
+                            <li>Instructions : press F/f/Right arrow key to move Right</li>
+                        </ul>
+                        <h2 class="card-title d-flex justify-content-center align-item-center" id="scoreboard" >Score: 0</h2>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- <canvas id="game-canvas" width="300" height="600"></canvas> -->
+    <!-- <h2 id="scoreboard">Score: 0</h2>  -->
+
+
+    <script>
+        alert("Read Instructions");
+        alert("Press E/e/uparrow for rotate || Press S/s/leftarrow for left ||Press F/f/Right arrow for right ||Press D/d/Down arrow for Down || ");
+        
+    </script>
+    <script src="./constants.js"></script>
+    <script src="./piece.js"></script>
+    <script src="./gamemodel.js"></script>
+    <script src="./tetris.js"></script>
+</body>
+
+</html>
